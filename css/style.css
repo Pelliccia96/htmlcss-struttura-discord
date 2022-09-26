@@ -9,6 +9,10 @@ nav {
     padding: 1rem;
 }
 
+hr {
+    margin: 2rem 0;
+}
+
 .container {
     width: 920px;
     margin: auto;
@@ -72,4 +76,37 @@ header section {
     background-color: #228B22;
     padding-bottom: 30rem;
     width: 100%;
+}
+
+footer {
+    background-color: #23272A;
+    padding: 2rem;
+}
+
+.row-footer {
+    display: flex;
+}
+
+footer .container .row-footer .col {
+    background-color: #F08080;
+    padding-bottom: 30rem;
+    width: 40%;
+}
+
+footer .container .row-footer .col-2 {
+    background-color: #20B2AA;
+    width: 15%;
+    border: 1px dashed black;
+}
+
+.row-footer2 {
+    display: flex;
+    background-color: #76EAC3;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+}
+
+.row-footer2 .col-footer {
+    background-color: #CB939B;
+    padding: 0.5rem;
 }
