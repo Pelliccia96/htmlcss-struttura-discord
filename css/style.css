@@ -67,3 +67,9 @@ header section {
 .background-grey .container .row {
     flex-direction: row-reverse;
 }
+
+.row .box {
+    background-color: #228B22;
+    padding-bottom: 30rem;
+    width: 100%;
+}
